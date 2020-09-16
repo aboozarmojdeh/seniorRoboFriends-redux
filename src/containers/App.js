@@ -7,7 +7,6 @@ import Scroll from "../components/Scroll/Scroll";
 import ErrorBoundry from '../components/ErrorBoundry/ErrorBoundry';
 import axios from "axios";
 
-<<<<<<< HEAD
 import {setSearchField,requestRobots } from '../actions';
 
 const mapStateToProps=state=>{
@@ -15,32 +14,14 @@ const mapStateToProps=state=>{
     searchField: state.searchRobots.searchField,
     robots: state.requestRobots.robots,
     isPending: state.requestRobots.isPending
-=======
-import {setSearchField, requestRobots} from '../actions';
-
-const mapStateToProps=state=>{
-  return{
-    searchField:state.searchRobots.searchField,
-    robots:state.requestRobots.robots,
-    isPending:state.requestRobots.isPending,
-    error:state.requestRobots.error
->>>>>>> 7808e190db21baf4aa4df9f6669f1405a5034fe8
   }
 }
 
 const mapDispatchToProps=(dispatch)=>{
   return {
-<<<<<<< HEAD
     onSearchChange: (event) => dispatch(setSearchField(event.target.value)),
     onRequestRobots: () => dispatch(requestRobots())
 }
-=======
-    onSearchChange:(event)=>dispatch(setSearchField(event.target.value)),
-    onRequestRobots: ()=>dispatch(requestRobots())
-
-
-  }
->>>>>>> 7808e190db21baf4aa4df9f6669f1405a5034fe8
 }
 
 class App extends Component {
@@ -66,13 +47,8 @@ class App extends Component {
 
   componentDidMount() {
 
-<<<<<<< HEAD
 
     this.props.onRequestRobots();
-=======
-this.props.onRequestRobots()
-    // this.getUser();
->>>>>>> 7808e190db21baf4aa4df9f6669f1405a5034fe8
   //   fetch("https://jsonplaceholder.typicode.com/users")
   //     .then((response) => response.json())
   //     .then((users) => this.setState({ robots: users }));
@@ -83,12 +59,7 @@ this.props.onRequestRobots()
   // };
 
   render() {
-<<<<<<< HEAD
     const { robots, searchField, onSearchChange, isPending } = this.props;
-=======
-
-const {searchField, onSearchChange,robots,isPending}=this.props
->>>>>>> 7808e190db21baf4aa4df9f6669f1405a5034fe8
 
     const filteredRobots = robots.filter((robot) => {
       return robot.name

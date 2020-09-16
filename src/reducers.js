@@ -5,7 +5,6 @@ import {
     REQUEST_ROBOTS_FAILED
 } from './constants';
 
-<<<<<<< HEAD
 const initialStateSearch = {
     searchField: ''
 }
@@ -17,22 +16,6 @@ export const searchRobots = (state = initialStateSearch, action = {}) => {
         default:
             return state
     }
-=======
-const initialStateSearch={
-    searchField:''
-}
-
-
-export const searchRobots=(state=initialStateSearch,action={})=>{
-// console.log(action.type)
-    switch(action.type){
-    case CHANGE_SEARCH_FIELD:
-        return Object.assign({},state,{searchField: action.payload})
-    default:
-        return state    
-
-}
->>>>>>> 7808e190db21baf4aa4df9f6669f1405a5034fe8
 }
 
 const initialStateRobots = {
@@ -40,7 +23,6 @@ const initialStateRobots = {
     isPending: true
 }
 
-<<<<<<< HEAD
 export const requestRobots = (state = initialStateRobots, action = {}) => {
     switch (action.type) {
         case REQUEST_ROBOTS_PENDING:
@@ -53,29 +35,3 @@ export const requestRobots = (state = initialStateRobots, action = {}) => {
             return state
     }
 }
-=======
-const initialStateRobots={
-    isPending:false,
-    error:'',
-    robots:[]
-}
-export const requestRobots=(state=initialStateRobots,action={})=>{
-    switch(action.type){
-        case REQUEST_ROBOTS_PENDING:
-            return Object.assign({},state, {isPending:true})
-        
-        case REQUEST_ROBOTS_SUCCESS:
-            return Object.assign({},state,{robots:action.payload, isPending:false})
-        
-        case REQUEST_ROBOTS_FAILED:
-            return Object.assign({},state,{error:action.payload, isPending:false})
-        
-        default:
-        return state 
-    }
-    
-}
-
-
-
->>>>>>> 7808e190db21baf4aa4df9f6669f1405a5034fe8
