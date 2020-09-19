@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 
 const SearchBox = ({onSearchChange}) => {
+  console.log('SearchBox')
   return (
     <Fragment>
     

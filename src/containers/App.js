@@ -5,6 +5,7 @@ import CardList from "../components/Card/CardList";
 import SearchBox from "../components/SearchBox/SearchBox";
 import Scroll from "../components/Scroll/Scroll";
 import ErrorBoundry from '../components/ErrorBoundry/ErrorBoundry';
+import Header from '../components/Header/Header';
 import axios from "axios";
 
 import {setSearchField,requestRobots } from '../actions';
@@ -73,7 +74,7 @@ class App extends Component {
       return (
         <Fragment>
           <div className="tc">
-            <h1 className="f1 app-header-text">Senior Robo Friends</h1>
+          <Header />
             <SearchBox onSearchChange={onSearchChange} />
             <Scroll>
               <ErrorBoundry>
