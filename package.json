@@ -1,5 +1,6 @@
 {
   "name": "senior-robo-friends",
+  "homepage": "https://aboozarmojdeh.github.io/seniorRoboFriends-redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
