@@ -4,8 +4,24 @@
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "256x256 192x192 150x150 64x64 32x32 24x24 16x16 ",
+      "sizes": "48x48",
       "type": "image/x-icon"
+    },
+    {
+      "src": "images/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose":"any maskable"
+    },
+    {
+      "src": "images/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
     
     
