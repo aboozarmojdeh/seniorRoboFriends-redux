@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/seniorRoboFriends-redux/static/css/main.0b807712.chunk.css",
-    "main.js": "/seniorRoboFriends-redux/static/js/main.3298cfa6.chunk.js",
-    "main.js.map": "/seniorRoboFriends-redux/static/js/main.3298cfa6.chunk.js.map",
+    "main.js": "/seniorRoboFriends-redux/static/js/main.8d1708fc.chunk.js",
+    "main.js.map": "/seniorRoboFriends-redux/static/js/main.8d1708fc.chunk.js.map",
     "runtime-main.js": "/seniorRoboFriends-redux/static/js/runtime-main.77f9de5c.js",
     "runtime-main.js.map": "/seniorRoboFriends-redux/static/js/runtime-main.77f9de5c.js.map",
     "static/css/2.3c03f26f.chunk.css": "/seniorRoboFriends-redux/static/css/2.3c03f26f.chunk.css",
     "static/js/2.6fbeb504.chunk.js": "/seniorRoboFriends-redux/static/js/2.6fbeb504.chunk.js",
     "static/js/2.6fbeb504.chunk.js.map": "/seniorRoboFriends-redux/static/js/2.6fbeb504.chunk.js.map",
     "index.html": "/seniorRoboFriends-redux/index.html",
-    "precache-manifest.a37e1c6e040ce8e9c76815479b3e6e9b.js": "/seniorRoboFriends-redux/precache-manifest.a37e1c6e040ce8e9c76815479b3e6e9b.js",
+    "precache-manifest.33d5bd8e800fd31a254abbc8d6dab60e.js": "/seniorRoboFriends-redux/precache-manifest.33d5bd8e800fd31a254abbc8d6dab60e.js",
     "service-worker.js": "/seniorRoboFriends-redux/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/seniorRoboFriends-redux/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.0b807712.chunk.css.map": "/seniorRoboFriends-redux/static/css/main.0b807712.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.6fbeb504.chunk.js",
     "static/css/main.0b807712.chunk.css",
-    "static/js/main.3298cfa6.chunk.js"
+    "static/js/main.8d1708fc.chunk.js"
   ]
 }
