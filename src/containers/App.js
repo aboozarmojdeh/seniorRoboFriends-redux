@@ -69,7 +69,21 @@ class App extends Component {
     });
 
     if (isPending) {
-      return <h1 className="f1 app-header-text">Loading!</h1>;
+      return (
+        <Fragment>
+        <div className="tc">
+        <Header />
+        <SearchBox onSearchChange={onSearchChange} />
+        <Scroll>
+              <ErrorBoundry>
+              <h1 className="f1 app-header-text">Loading!</h1>
+              </ErrorBoundry>
+            </Scroll>
+      
+      </div>
+      </Fragment>
+      
+      );
     } else {
       return (
         <Fragment>
