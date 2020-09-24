@@ -8,7 +8,6 @@ const Card = ({ id, name, email, link }) => {
           <img alt='card-img' src={`https://robohash.org/${id}?size=200x200`} className="br-100 h4 w4 dib ba b--black-05 pa2 bg-white" title="Photo of a kitty staring at you" />
           <h1 className="f3 mb2">{name}</h1>
           <h2 className="f5 fw4 mt0">{email}</h2>
-          {/* <a className="link tc ph3 pv1 db bg-animate bg-dark-blue hover-bg-blue white f6 br1 ma3 grow" href={link}>Link</a> */}
         </div>
       </article>
     </Fragment>
