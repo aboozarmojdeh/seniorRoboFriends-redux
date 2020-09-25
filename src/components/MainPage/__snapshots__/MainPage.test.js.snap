@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render MainPage without crashing 1`] = `
+<Fragment>
+  <div
+    className="tc"
+  >
+    <Header />
+    <SearchBox />
+    <Scroll>
+      <ErrorBoundry>
+        <CardList
+          robots={Array []}
+        />
+      </ErrorBoundry>
+    </Scroll>
+  </div>
+</Fragment>
+`;
