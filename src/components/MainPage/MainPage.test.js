@@ -21,3 +21,4 @@ test('render MainPage without crashing', () => {
    
     expect(wrapper).toMatchSnapshot();
 })
+
