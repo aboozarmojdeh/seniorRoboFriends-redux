@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filter robots correctly 1`] = `
+<Fragment>
+  <div
+    className="tc"
+  >
+    <Header />
+    <SearchBox />
+    <Scroll>
+      <ErrorBoundry>
+        <CardList
+          robots={
+            Array [
+              Object {
+                "email": "john@gmail.com",
+                "id": 3,
+                "name": "john",
+              },
+            ]
+          }
+        />
+      </ErrorBoundry>
+    </Scroll>
+  </div>
+</Fragment>
+`;
+
+exports[`filter robots correctly2 1`] = `
+<Fragment>
+  <div
+    className="tc"
+  >
+    <Header />
+    <SearchBox />
+    <Scroll>
+      <ErrorBoundry>
+        <CardList
+          robots={Array []}
+        />
+      </ErrorBoundry>
+    </Scroll>
+  </div>
+</Fragment>
+`;
+
+exports[`isPending test 1`] = `
+<Fragment>
+  <div
+    className="tc"
+  >
+    <Header />
+    <SearchBox />
+    <Scroll>
+      <ErrorBoundry>
+        <h1
+          className="f1 app-header-text"
+        >
+          Loading!
+        </h1>
+      </ErrorBoundry>
+    </Scroll>
+  </div>
+</Fragment>
+`;
